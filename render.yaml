@@ -4,17 +4,22 @@ services:
     env: docker
     plan: free
     autoDeploy: true
-    dockerImage: n8nio/n8n:latest
+    image: n8nio/n8n:latest
     envVars:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
+
       - key: N8N_BASIC_AUTH_USER
         value: admin123
+
       - key: N8N_BASIC_AUTH_PASSWORD
         value: Passw0rd2812
+
       - key: N8N_ENCRYPTION_KEY
         value: a9F3kL2Qx7M8RZP4NwC5JH6VdE0SByT
+
       - key: TZ
         value: Asia/Kolkata
+
       - key: N8N_PROTOCOL
         value: https
