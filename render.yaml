@@ -9,9 +9,9 @@ services:
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
-        value: admin
+        value: admin123
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: StrongPassword123
+        value: Passw0rd2812
       - key: N8N_ENCRYPTION_KEY
         value: a9F3kL2Qx7M8RZP4NwC5JH6VdE0SByT
       - key: TZ
